@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.right_meno li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.right_meno li .fa {
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-brand img {
+    width: 160px;
+}
+
+.navbar-brand {
+    left: 50%;
+    top: 25px;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.header {
+    background: #f5f6fc;
+}
+
+.navbar {
+    padding: 0px 35px;
+}
+
+button.navbar-toggler {
+    padding: 0 !important;
+    border: none !important;
+    outline: 0 !important;
+    margin-top: 33px;
+}
+
+button.navbar-toggler .fa {
+    font-size: 30px;
+    pointer-events: painted;
+}
+
+.banner_img {
+    margin: 80px 115px;
+    width: 55%;
+}
+
+.banner_img img {
+    width: 100%;
+    margin-bottom: -80px
+}
+
+.banner {
+    position: relative;
+}
+
+h1 {}
+
+.banner_titel {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.banner_titel h1 {
+    font-size: 48px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+    line-height: 70px;
+}
+
+
+/*banner */
+
+section.fashion-trends {
+    padding: 100px 0px;
+}
+
+.fashion-box {
+    margin: 80px 0px;
+}
+
+.titel-style h1 {
+    padding: 40px 0px;
+
+}
+
+.titel-style {
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+.titel-style::after {
+    content: "";
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+
+}
+
+.titel-style::before {
+    content: "";
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+
+}
+
+
+.trending-img {
+    position: relative;
+    margin-bottom: 15px;
+
+}
+
+.trending-img img {
+    width: 100%;
+}
+
+.btn-buy {
+    width: 150px;
+    padding: 10px 0;
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, 0);
+    transition: 0.6s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.trending-img:hover .btn-buy {
+    transform: translate(-50%, 50%);
+    bottom: 50%;
+    opacity: 1;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .5s
+}
+
+.trending-img:hover .overlay {
+    opacity: 0.5;
+    height: 100%;
+}
+
+/*-----offer---*/
+
+.offer {
+    background-image: url(https://images.pexels.com/photos/2156884/pexels-photo-2156884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.row {
+    margin: inherit !important
+}
+
+.subscribe {
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 20px;
+}
+
+.subscribe a {
+    width: 100px;
+    display: block;
+    color: #fff !important;
+    background: #000;
+    text-decoration: none !important;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.offer img {
+    width: 300px;
+    height: 400px;
+    margin: -100px;
+    margin-left: 50%;
+    margin-top: 150px;
+    transform: translate(-50%);
+
+}
+
+.fashion-blog {
+    margin: 250px 0 250px 0;
+}
+
+.bloge-img {
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+
+.bloge-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.fashion-blog h5 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/*fashion-barands */
+
+.fashion-brands {
+    margin-bottom: 150px;
+}
+
+.brand-logo {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 50px auto 30px;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, 18);
+
+}
+
+.brand-logo img {
+    width: 100px;
+    margin: 50px auto;
+}
+
+.fashion-brands p {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/*footer css */
+
+.footer {
+    margin-top: 150px;
+    background: #f5f6fc;
+
+}
+
+.payment,
+.intra-img,
+.app-download {
+    margin: 50px auto;
+
+}
+
+.payment img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.intra-img img {
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.app-download img {
+    width: 200px;
+
+}
+
+.footer h5 {
+    margin-bottom: 50px;
+}
+
+.footer h5::before {
+    content: "";
+    width: 70px;
+    height: 3px;
+    background: #4f74e8;
+    top: 80px;
+    position: absolute;
+}
+
+.footer-icon {
+    text-align: right;
+}
+
+.footer-icon .fa {
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* this for smoll divice*/
+
+@media only screen and (max-width:900px) {
+
+    .banner_img {
+        margin: 40px auto;
+        width: 80%;
+    }
+    .banner_titel {
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%)
+    }
+    
+    .banner_titel h1{
+        font-size: 16px;
+        padding: 5px;
+        line-height: 20px;
+    }
+
+.titel-style h1 {
+    font-size: 25px;
+
+}
+
+    .offer img{
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .footer-icon {
+    text-align: center;
+}
+    
+    .copy-right{
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
